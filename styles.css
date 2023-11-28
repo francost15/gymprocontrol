@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+h2 {
+    font-size: 24px; /* Tamaño de la fuente */
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h4 {
+    font-size: 10px; /* Tamaño de la fuente */
+    font-family: 'Poppins', sans-serif;
+  }
+  h3 {
+    font-size: 15px; /* Tamaño de la fuente */
+    font-family: 'Poppins', sans-serif;
+  }
+  h1 {
+    font-size: 35px; /* Tamaño de la fuente */
+    font-family: 'Poppins', sans-serif;
+  }
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+}
+.custom-color {
+    background-color: rgba(0, 17, 26, 1); /* El último valor es la opacidad, que es 1 en este caso */
+}
+.qr-code-img {
+    max-width: 700px; /* o el tamaño que prefieras */
+    border: 5px solid #4A5568; /* usa el color de tu preferencia */
+    padding: 10px;
+    background-color: white; /* o cualquier color de fondo que desees */
+    border-radius: 15px; /* para bordes redondeados */
+  }
+  /* Posición fija en la parte inferior de la barra lateral */
+.logout-btn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 64px; /* Ajusta al ancho de tu sidebar */
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.1); /* Un ligero fondo si deseas resaltar el botón */
+    color: #ef4444; /* Color rojo para el icono y texto */
+}
+
+.logout-btn:hover {
+    color: #dc2626; /* Color rojo más oscuro al pasar el ratón sobre el icono */
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo ligeramente más oscuro al hover */
+}
+body, button, input, textarea {
+  font-family: 'Poppins', sans-serif;
+}
+.sidebar, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+/* styles.css */
+.membership-expired {
+  color: red;
+  text-decoration: underline;
+}
+/* styles.css */
+.reservation-cancelled {
+  color: red;
+  text-decoration: underline;
+}

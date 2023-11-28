@@ -1,0 +1,2 @@
+IDEquipo,NombreEquipo,Tipo,Cantidad,Estado,Ubicacion,FechaCompra,Proveedor,Costo,FechaUltimoMantenimiento,Observaciones,MantenimientoProgramado,IDArea
+5,Bicicleta spining,Pecho,5,Bueno,d,Wed Nov 15 2023 00:00:00 GMT-0600 (hora estándar central),uu,666666,Tue Nov 14 2023 00:00:00 GMT-0600 (hora estándar central),hjh,Fri Dec 01 2023 00:00:00 GMT-0600 (hora estándar central),1

@@ -1,0 +1,109 @@
+/* Importa Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+  background-color: #5a67d8; /* Un color más claro para el hover */
+}
+
+/* Añade iconos a los campos de entrada */
+.input-icon {
+  position: relative;
+}
+
+.input-icon input {
+  padding-left: 30px;
+}
+
+.input-icon i {
+  position: absolute;
+  left: 10px;
+  top: 11px;
+  color: #9ca3af;
+}
+/* Estilo para el título */
+h2 {
+    font-size: 24px; /* Tamaño de la fuente */
+    color: #4a5568; /* Color gris */
+    font-family: 'Poppins', sans-serif;
+  }
+
+  input:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.5);
+  }
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+  }
+  .rounded-form {
+    border-radius: 20px;
+  }
+
+  .gradient-background {
+    height: 100%; /* Asegúrate de que cubra toda la pantalla */
+    background: linear-gradient(90deg, rgb(145, 15, 110) 0%, rgb(63, 5, 59) 0%, rgb(35, 9, 83) 48%, rgb(5, 83, 114) 100%);
+    background-size: 300% 100%;
+    animation: gradientShift 15s ease infinite;
+  }
+  
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Altura mínima de la ventana del navegador */
+    margin: 0; /* Eliminar el margen predeterminado */
+  }
+  
+  /* Ajustar el tamaño del formulario */
+  #app {
+    width: 100%;
+    max-width: 500px; /* Ajustar al tamaño deseado */
+  }
+  
+  /* Ajustar el tamaño del título, campos de entrada y botón */
+  form {
+    padding: 2rem; /* Espaciado interior más grande */
+  }
+  
+  h2 {
+    font-size: 1.5rem; /* Título más grande */
+  }
+  
+  input {
+    padding: 1rem; /* Campos de entrada más grandes */
+    font-size: 1rem; /* Tamaño de fuente más grande */
+  }
+  
+  button {
+    transition: background-color 0.3s ease;
+    padding: 1rem; /* Botón más grande */
+    font-size: 1rem; /* Tamaño de fuente más grande */
+    display: flex;
+    justify-content: center; /* Centra el botón horizontalmente */
+  
+  }
+  /* Centrar elementos horizontalmente */
+.centered {
+    display: flex;
+    justify-content: center;
+  }
+  
