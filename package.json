@@ -23,5 +23,8 @@
     "qrcode": "^1.5.3",
     "sweetalert2": "^11.9.0",
     "vue-toastification": "^1.7.14"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.4.11"
   }
 }

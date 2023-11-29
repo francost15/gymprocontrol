@@ -23,7 +23,7 @@ new Vue({
         // Asegúrate de que la respuesta del servidor es la esperada
         if (response.data.success) {
           // Si el inicio de sesión es exitoso, redirige
-          window.location.href = '/control/inicio.php'; // Ruta absoluta
+          window.location.href = '/control/inicio.html'; // Ruta absoluta
         } else {
           // Si la respuesta del servidor indica un fallo
           this.loginError = response.data.message || 'Inicio de sesión fallido.';
